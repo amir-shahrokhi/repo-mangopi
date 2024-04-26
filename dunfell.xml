@@ -6,7 +6,7 @@
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="qt" fetch="https://github.com/meta-qt5"/>
-  <remote name="amirsh" fetch="https://github.com/amir-shahrokhi"/>
+  <remote name="amirsh" fetch="git@github.com:amir-shahrokhi"/>
 
   <!-- Upstream Yocto & OpenEmbedded Projects -->
   <project remote="yocto" revision="dunfell" name="poky" path="poky"/>
