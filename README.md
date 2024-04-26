@@ -16,4 +16,4 @@ repo sync
 
 ## Acknowledgements
 
-Special thanks to [Arash Golgol](https://github.com/ArashEM) for proving the base [meta-mangopi](https://github.com/ArashEM/meta-mangopi) BSP layer.
+Special thanks to [Arash Golgol](https://github.com/ArashEM) for providing the base [meta-mangopi](https://github.com/ArashEM/meta-mangopi) BSP layer.
