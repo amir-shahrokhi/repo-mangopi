@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+
+  <!-- Remote repositories definition -->
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="oe" fetch="https://github.com/openembedded"/>
+  <remote name="sunxi" fetch="https://github.com/linux-sunxi"/>
+  
+  <!-- Upstream Yocto & OpenEmbedded Projects -->
+  <project remote="yocto" revision="master" name="poky" path="poky"/>
+  <project remote="yocto" revision="master" name="meta-arm" path="meta-arm"/>
+  <project remote="oe" revision="master" name="meta-openembedded" path="meta-openembedded"/>
+  <project remote="sunxi" revision="master" name="meta-sunxi" path="meta-sunxi"/>
+
+</manifest>
