@@ -10,6 +10,6 @@ The following commands will checkout a working set of meta layers needed to buil
 mkdir mangopi-project
 cd mangopi-project
 
-repo init -u "https://github.com/amir-shahrokhi/repo-mangopi.git" -b mainline-master -m mainline-latest.xml
+repo init -u "https://github.com/amir-shahrokhi/repo-mangopi.git" -b mainline/master -m mainline-latest.xml
 repo sync
 ```
