@@ -10,7 +10,7 @@ The following commands will checkout a working set of meta layers needed to buil
 mkdir mangopi-project
 cd mangopi-project
 
-repo init -u "https://github.com/amir-shahrokhi/repo-mangopi.git"
+repo init -u "https://github.com/amir-shahrokhi/repo-mangopi.git" -b t113-eval/kirkstone -m custom-kirkstone.xml
 repo sync
 ```
 
